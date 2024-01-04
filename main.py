@@ -64,6 +64,10 @@ def ask_to_continue():
             print('Invalid Option!')
 
 
-if __name__ == '__main__':
+def main():
     start_game()
     ask_to_continue()
+
+
+if __name__ == '__main__':
+    main()
